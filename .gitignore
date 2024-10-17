@@ -1,0 +1,89 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.dat
+*.npz
+*.h5
+*.json
+*.db
+*.sqlite
+*.zip
+
+# Model files
+*.pkl
+*.h5
+*.pt
+*.joblib
+*.model
+
+# Logs
+*.log
+*.out
+*.err
+logs/
+logfile.*
+
+# TensorBoard
+./runs/
+
+# Machine learning cache files
+*.cache
+*.pyo
+*.pth
+*.weights
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.orig
+
+# Compiled files
+*.o
+*.so
+*.a
+*.dll
+*.dylib
+
+# Anaconda environments
+*.conda
+*.yml
+*.yaml
+
+# Docker-related
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+
+# Test reports
+coverage/
+htmlcov/
+*.coverage
+
+# Miscellaneous
+!README.md
